@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="AlbertoV5's Reaper Tools" commit="09504e1539b2928a77be38692bdf8ad757bdd344">
+<index version="1" name="AlbertoV5's Reaper Tools" commit="dc5aac28381e8731ed144383f3f9cb9cb2140eb4">
   <category name="Multichannel">
     <reapack name="Link Multichannel FXs Parameters.lua" type="script" desc="Link Multichannel FXs Parameters">
       <metadata>
@@ -28,6 +28,13 @@
       <version name="1.0" author="Alberto V5" time="2022-04-26T16:29:16Z">
         <changelog><![CDATA[First release. Supports VST and VST3.]]></changelog>
         <source main="main">https://github.com/AlbertoV5/ReaperTools/raw/8eb70fcb49ff6517c9039126b36461f080c3a12c/parameterLinker/parameterLinker.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="stoicOSC">
+    <reapack name="OSC.data" type="data" desc="Templates for REAPER OSC and Realearn">
+      <version name="0.9.0" author="AlbertoV5" time="2022-04-26T18:49:47Z">
+        <source file="Data.zip">https://github.com/AlbertoV5/TouchOSC-Betov5/releases/download/Reapack/Data.zip</source>
       </version>
     </reapack>
   </category>
