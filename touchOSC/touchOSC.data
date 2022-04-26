@@ -1,0 +1,6 @@
+@description Templates for REAPER OSC and Realearn
+@version 0.9.0
+@author AlbertoV5
+@provides 
+    stoicOSC/stoic.tosc
+    stoicOSC/stoic.xml
