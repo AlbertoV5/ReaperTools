@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="AlbertoV5's Reaper Tools" commit="ed0a08505ff6f85797bfd9d9066e3f02dd248840">
+<index version="1" name="AlbertoV5's Reaper Tools" commit="c2ce297a74a074dcb392f41f2372679af530b289">
+  <category name="Link Multichannel FXs Parameters">
+    <reapack name="Link Multichannel FXs Parameters.lua" type="script" desc="Link Multichannel FXs Parameters">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Link Multichannel FXs Parameters\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script converts any plugin with external sidechain capabilities into a multichannel FX in order to ease the workflow of processing multiple channels for stem delivery.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script finds the last touched FX on the selected Track and creates multiple copies of it, then links all the copies to the original and sets up multichannel routing so each FX is connected to a different pair of channels but all of them receive sidechain input from the last pair of pins.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Recommended use is to create a new track and insert a new FX, then load any presets or change any parameters for a start and then run this script. You can then route your multi-tracks or buses into the channels of this new track. Then tweak the parameters of the first FX as you would normally do and the rest will follow because they are linked as if you had linked them manually but this script already did all the prep work for you.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Key features:\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 1.\tx360\tab JSFX is not yet supported.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 2.\tx360\tab VST and VST3 supported and tested.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 3.\tx360\tab Pop up menus for user input.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 4.\tx360\tab Modify the global variables at the top of the script for extra functionalities\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 5.\tx360\tab This doesn't link across tracks as it's not a Reaper feature, other scripts out there do that!\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Know issues:\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 1.\tx360\tab Some FXs don't let settings like oversampling or linear phase to be linked so set those before running this script!\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 2.\tx360\tab Some FXs don't support modifying or linking values from outside their interface so there is no way around that!\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 3.\tx360\tab Because the FXs are in series even if passing through the unmapped pins, the PDC remains as if they were in series anyway so the total PDC of the track can increase dramatically.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Reach out if you would like me to support JSFX or add other features.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="Alberto V5" time="2022-04-26T17:14:10Z">
+        <changelog><![CDATA[First release. Supports VST and VST3.]]></changelog>
+        <source main="main">https://github.com/AlbertoV5/ReaperTools/raw/c2ce297a74a074dcb392f41f2372679af530b289/Link%20Multichannel%20FXs%20Parameters/Link%20Multichannel%20FXs%20Parameters.lua</source>
+      </version>
+    </reapack>
+  </category>
   <category name="Multichannel">
     <reapack name="Link Multichannel FXs Parameters.lua" type="script" desc="Link Multichannel FXs Parameters">
       <metadata>
