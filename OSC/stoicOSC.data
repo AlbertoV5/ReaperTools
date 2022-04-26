@@ -2,10 +2,10 @@
 @version 0.9.0
 @author AlbertoV5
 @provides
-    https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.jpeg > OSC/stoic.jpeg
-    https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.ReaperOSC > OSC/stoic.reaperOSC
-    https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.tosc?raw=true > OSC/stoic.tosc
-    https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.xml?raw=true > OSC/stoic.xml
+    OSC/stoic.jpeg https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.jpeg
+    OSC/stoic.reaperOSC https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.ReaperOSC
+    OSC/stoic.tosc https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.tosc?raw=true
+    OSC/stoic.xml https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.xml?raw=true
 @donation https://paypal.me/albertov5
 @about
     # "STOIC" a template for TouchOSC and Reaper/Realearn
