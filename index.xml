@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="AlbertoV5's Reaper Tools" commit="251d56353ff2395dfe30ffbd0b9373f5f26eacc7">
+<index version="1" name="AlbertoV5's Reaper Tools" commit="3411b853ae930c294344c4651f7a51d654bda4b3">
   <category name="Multichannel">
     <reapack name="Link Multichannel FXs Parameters.lua" type="script" desc="Link Multichannel FXs Parameters">
       <metadata>
@@ -28,33 +28,6 @@
       <version name="1.0" author="Alberto V5" time="2022-04-26T16:29:16Z">
         <changelog><![CDATA[First release. Supports VST and VST3.]]></changelog>
         <source main="main">https://github.com/AlbertoV5/ReaperTools/raw/8eb70fcb49ff6517c9039126b36461f080c3a12c/parameterLinker/parameterLinker.lua</source>
-      </version>
-    </reapack>
-  </category>
-  <category name="OSC">
-    <reapack name="stoicOSC.data" type="data" desc="STOIC: TouchOSC Reaper/Realearn Template">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 "STOIC" a template for TouchOSC and Reaper/Realearn\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 {\field{\*\fldinst{HYPERLINK "https://github.com/AlbertoV5/TouchOSC-Betov5/blob/main/UserGuide.md"}}{\fldrslt{\ul
-User Guide
-}}}
-\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 {\field{\*\fldinst{HYPERLINK "https://github.com/AlbertoV5/TouchOSC-Betov5/blob/main/ConfigGuide.md"}}{\fldrslt{\ul
-Config Guide
-}}}
-\par}
-}
-]]></description>
-        <link rel="donation">https://paypal.me/albertov5</link>
-      </metadata>
-      <version name="0.9.0" author="AlbertoV5" time="2022-04-26T22:22:08Z">
-        <source file="OSC/stoic.reaperOSC">https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.ReaperOSC</source>
-        <source file="OSC/stoic.tosc">https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.tosc?raw=true</source>
-        <source file="OSC/stoic.xml">https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.xml?raw=true</source>
       </version>
     </reapack>
   </category>
