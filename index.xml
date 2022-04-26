@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="AlbertoV5's Reaper Tools" commit="00e73bfdb7aaf2a45b2ed73a1da1c9caa4cf907f">
+<index version="1" name="AlbertoV5's Reaper Tools" commit="01292e55c181290bcc14bb13bc1892fc4018630a">
   <category name="Multichannel">
     <reapack name="Link Multichannel FXs Parameters.lua" type="script" desc="Link Multichannel FXs Parameters">
       <metadata>
@@ -31,7 +31,7 @@
       </version>
     </reapack>
   </category>
-  <category name="OSC">
+  <category name="stoicOSC">
     <reapack name="stoicOSC.data" type="data" desc="STOIC: TouchOSC Reaper/Realearn Template">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
@@ -51,7 +51,7 @@ Config Guide
 ]]></description>
         <link rel="donation">https://paypal.me/albertov5</link>
       </metadata>
-      <version name="0.9.0" author="AlbertoV5" time="2022-04-26T23:16:59Z">
+      <version name="0.9.0" author="AlbertoV5" time="2022-04-26T23:27:16Z">
         <source file="stoicOSC/stoic.reaperOSC">https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.ReaperOSC</source>
         <source file="stoicOSC/stoic.tosc">https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.tosc</source>
         <source file="stoicOSC/stoic.xml">https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.xml</source>
