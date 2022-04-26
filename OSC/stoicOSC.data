@@ -3,9 +3,9 @@
 @author AlbertoV5
 @screenshot https://raw.githubusercontent.com/AlbertoV5/stoicOSC/main/resources/osc2.JPG
 @provides
-    stoicOSC/stoic.reaperOSC https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.ReaperOSC
-    stoicOSC/stoic.tosc https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.tosc
-    stoicOSC/stoic.xml https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.xml
+    stoicOSC/stoic.reaperOSC https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.ReaperOSC?raw=true
+    stoicOSC/stoic.tosc https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.tosc?raw=true
+    stoicOSC/stoic.xml https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.xml?raw=true
 @donation https://paypal.me/albertov5
 @about
     # "STOIC" a template for TouchOSC and Reaper/Realearn
