@@ -31,7 +31,7 @@
       </version>
     </reapack>
   </category>
-  <category name="stoicOSC">
+  <category name="OSC">
     <reapack name="stoicOSC.data" type="data" desc="STOIC: TouchOSC Reaper/Realearn Template">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
