@@ -31,43 +31,4 @@
       </version>
     </reapack>
   </category>
-  <category name="OSC">
-    <reapack name="stoicOSC.data" type="data" desc="STOIC: TouchOSC Reaper/Realearn Template">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 "STOIC" a template for TouchOSC and Reaper/Realearn\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 {\field{\*\fldinst{HYPERLINK "https://github.com/AlbertoV5/TouchOSC-Betov5/blob/main/UserGuide.md"}}{\fldrslt{\ul
-User Guide
-}}}
-\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 {\field{\*\fldinst{HYPERLINK "https://github.com/AlbertoV5/TouchOSC-Betov5/blob/main/ConfigGuide.md"}}{\fldrslt{\ul
-Config Guide
-}}}
-\par}
-}
-]]></description>
-        <link rel="donation">https://paypal.me/albertov5</link>
-      </metadata>
-      <version name="0.9.0" author="AlbertoV5" time="2022-04-26T23:07:59Z">
-        <source file="stoic/.">https://github.com/AlbertoV5/stoicOSC/tree/main/Reapack</source>
-      </version>
-    </reapack>
-  </category>
-  <metadata>
-    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Reaper Tools\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Hello.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This is where I'll package most of my REAPER scripts and tools for sharing with the community.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Development will most likely happen in separate repositories and I'd link to releases from here.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Send me an email if you find any issues. Have fun.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 donate to: https://paypal.me/albertov5\par}
-}
-]]></description>
-  </metadata>
 </index>
