@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="AlbertoV5's Reaper Tools" commit="a280fb668e18366f7be77300270afc74a6bde598">
+<index version="1" name="AlbertoV5's Reaper Tools" commit="251d56353ff2395dfe30ffbd0b9373f5f26eacc7">
   <category name="Multichannel">
     <reapack name="Link Multichannel FXs Parameters.lua" type="script" desc="Link Multichannel FXs Parameters">
       <metadata>
@@ -32,7 +32,7 @@
     </reapack>
   </category>
   <category name="OSC">
-    <reapack name="stoicOSC.data" type="data" desc="STOIC: OSC Reaper/Realearn Template">
+    <reapack name="stoicOSC.data" type="data" desc="STOIC: TouchOSC Reaper/Realearn Template">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
