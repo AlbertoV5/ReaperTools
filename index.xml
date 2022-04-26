@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="AlbertoV5's Reaper Tools" commit="58a3e39ba95bd0f35846aa1f39aa4cb2574295e1">
+<index version="1" name="AlbertoV5's Reaper Tools" commit="e25a21f7b59f8938fd30a1df70358b13402a8ac7">
   <category name="Example">
     <reapack name="cfillion_Hello world.lua" type="script" desc="Hello world">
       <metadata>
@@ -21,8 +21,66 @@ Markdown
       </version>
     </reapack>
   </category>
+  <category name="stems">
+    <reapack name="parameterLinker.lua" type="script" desc="Link Multichannel FXs Parameters">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Link Multichannel FXs Parameters\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script converts any plugin with external sidechain capabilities into a multichannel FX in order to ease the workflow of processing multiple channels for stem delivery.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script finds the last touched FX on the selected Track and creates multiple copies of it, then links all the copies to the original and sets up multichannel routing so each FX is connected to a different pair of channels but all of them receive sidechain input from the last pair of pins.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Recommended use is to create a new track and insert a new FX, then load any presets or change any parameters for a start and then run this script. You can then route your multi-tracks or buses into the channels of this new track. Then tweak the parameters of the first FX as you would normally do and the rest will follow because they are linked as if you had linked them manually but this script already did all the prep work for you.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Key features:\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 1.\tx360\tab JSFX is not yet supported.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 2.\tx360\tab VST and VST3 supported and tested.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 3.\tx360\tab Pop up menus for user input.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 4.\tx360\tab Modify the global variables at the top of the script for extra functionalities\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 5.\tx360\tab This doesn't link across tracks as it's not a Reaper feature, other scripts out there do that!\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Know issues:\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 1.\tx360\tab Some FXs don't let settings like oversampling or linear phase to be linked so set those before running this script!\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 2.\tx360\tab Some FXs don't support modifying or linking values from outside their interface so there is no way around that!\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 3.\tx360\tab Because the FXs are in series even if passing through the unmapped pins, the PDC remains as if they were in series anyway so the total PDC of the track can increase dramatically.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Reach out if you would like me to support JSFX or add other features.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="Alberto V5" time="2022-04-26T16:25:55Z">
+        <changelog><![CDATA[First release. Supports VST and VST3.]]></changelog>
+        <source main="main">https://github.com/AlbertoV5/ReaperTools/raw/e25a21f7b59f8938fd30a1df70358b13402a8ac7/stems/parameterLinker.lua</source>
+      </version>
+    </reapack>
+  </category>
   <metadata>
-    <description>
-    </description>
+    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 ReaPack Repository Template\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 A template for GitHub-hosted ReaPack repositories with automated {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index"}}{\fldrslt{\ul
+reapack-index
+}}}
+ running from GitHub Actions.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Replace the name of the repository in {\field{\*\fldinst{HYPERLINK "/index.xml"}}{\fldrslt{\ul
+index.xml
+}}}
+ when using this template. This will be the name shown in ReaPack.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \f1 <index version="1" name="Name of your repository here">\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Replace the contents of this file ({\field{\*\fldinst{HYPERLINK "/README.md"}}{\fldrslt{\ul
+README.md
+}}}
+). This will be the text shown when using ReaPack's "About this repository" feature.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 reapack-index looks for package files in subfolders. The folder tree represents the package categories shown in ReaPack.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Each package file is expected to begin with a metadata header. See {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation"}}{\fldrslt{\ul
+Packaging Documentation
+}}}
+ on reapack-index's wiki.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 The URL to import in ReaPack is {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-repository-template/raw/master/index.xml"}}{\fldrslt{\ul
+https://github.com/{\f1 <your username>}/{\f1 <repository name>}/raw/master/index.xml
+}}}
+.\par}
+}
+]]></description>
   </metadata>
 </index>
