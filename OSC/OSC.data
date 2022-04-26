@@ -2,6 +2,8 @@
 @version 0.9.0
 @author AlbertoV5
 @provides [data]] https://github.com/AlbertoV5/TouchOSC-Betov5/releases/download/Reapack/OSC.zip
-@about
-User Guide https://github.com/AlbertoV5/TouchOSC-Betov5/blob/main/UserGuide.md
-Config Guide https://github.com/AlbertoV5/TouchOSC-Betov5/blob/main/ConfigGuide.md
+About:
+  - User Guide https://github.com/AlbertoV5/TouchOSC-Betov5/blob/main/UserGuide.md
+  - Config Guide https://github.com/AlbertoV5/TouchOSC-Betov5/blob/main/ConfigGuide.md
+
+
