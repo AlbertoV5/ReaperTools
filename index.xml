@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" name="AlbertoV5's Reaper Tools" commit="ed0a08505ff6f85797bfd9d9066e3f02dd248840">
-  <category name="parameterLinker">
-    <reapack name="parameterLinker.lua" type="script" desc="Link Multichannel FXs Parameters">
+  <category name="Multichannel">
+    <reapack name="Link Multichannel FXs Parameters.lua" type="script" desc="Link Multichannel FXs Parameters">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
