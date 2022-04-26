@@ -36,9 +36,12 @@
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Alberto V5 Reaper Tools\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Reaper Tools\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Hello.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This is where I'll package most of my REAPER scripts and tools for sharing with the community.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Development will most likely happen in separate repositories and I'd link to releases from here.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Send me an email if you find any issues. Have fun.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 donate to: https://www.paypal.com/paypalme/my/profile\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 donate to: https://paypal.me/albertov5\par}
 }
 ]]></description>
   </metadata>
