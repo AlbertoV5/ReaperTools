@@ -1,0 +1,14 @@
+@description STOIC: OSC Reaper/Realearn Template
+@version 0.9.0
+@author AlbertoV5
+@provides 
+OSC/stoic.jpeg https://raw.githubusercontent.com/AlbertoV5/stoicOSC/main/Data/OSC/stoic.jpeg
+OSC/stoic.reaperOSC https://raw.githubusercontent.com/AlbertoV5/stoicOSC/main/Data/OSC/stoic.ReaperOSC
+OSC/stoic.tosc https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.tosc?raw=true
+OSC/stoic.xml https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.xml?raw=true
+@donation https://paypal.me/albertov5
+@about
+    # "STOIC" a template for TouchOSC and Reaper/Realearn
+    [User Guide](https://github.com/AlbertoV5/TouchOSC-Betov5/blob/main/UserGuide.md)
+
+    [Config Guide](https://github.com/AlbertoV5/TouchOSC-Betov5/blob/main/ConfigGuide.md)
