@@ -8,4 +8,4 @@ Development will most likely happen in separate repositories and I'd link to rel
 
 Send me an email if you find any issues. Have fun.
 
-donate to: https://www.paypal.com/paypalme/my/profile
+donate to: https://paypal.me/albertov5
