@@ -2,6 +2,6 @@
 @version 0.9.0
 @author AlbertoV5
 @provides
-    stoicOSC/stoic.xml
-    stoicOSC/stoic.tosc
+    OSC/stoic.xml
+    OSC/stoic.tosc
 
