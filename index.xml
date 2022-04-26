@@ -52,7 +52,6 @@ Config Guide
         <link rel="donation">https://paypal.me/albertov5</link>
       </metadata>
       <version name="0.9.0" author="AlbertoV5" time="2022-04-26T22:22:08Z">
-        <source file="OSC/stoic.jpeg">https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.jpeg</source>
         <source file="OSC/stoic.reaperOSC">https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.ReaperOSC</source>
         <source file="OSC/stoic.tosc">https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.tosc?raw=true</source>
         <source file="OSC/stoic.xml">https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.xml?raw=true</source>
