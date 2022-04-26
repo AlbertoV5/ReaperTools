@@ -2,8 +2,8 @@
 @version 0.9.0
 @author AlbertoV5
 @provides
-    https://raw.githubusercontent.com/AlbertoV5/stoicOSC/main/Data/OSC/stoic.jpeg > OSC/stoic.jpeg
-    https://raw.githubusercontent.com/AlbertoV5/stoicOSC/main/Data/OSC/stoic.ReaperOSC > OSC/stoic.reaperOSC
+    https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.jpeg > OSC/stoic.jpeg
+    https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.ReaperOSC > OSC/stoic.reaperOSC
     https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.tosc?raw=true > OSC/stoic.tosc
     https://github.com/AlbertoV5/stoicOSC/blob/main/Data/OSC/stoic.xml?raw=true > OSC/stoic.xml
 @donation https://paypal.me/albertov5
@@ -12,3 +12,4 @@
     [User Guide](https://github.com/AlbertoV5/TouchOSC-Betov5/blob/main/UserGuide.md)
 
     [Config Guide](https://github.com/AlbertoV5/TouchOSC-Betov5/blob/main/ConfigGuide.md)
+    
