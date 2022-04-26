@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="AlbertoV5's Reaper Tools" commit="e25a21f7b59f8938fd30a1df70358b13402a8ac7">
-  <category name="Example">
-    <reapack name="cfillion_Hello world.lua" type="script" desc="Hello world">
-      <metadata>
-        <description>
-        </description>
-      </metadata>
-      <version name="1.0" author="AlbertoV5" time="2021-01-04T23:30:32Z">
-        <source main="main">https://github.com/cfillion/reapack-repository-template/raw/58a3e39ba95bd0f35846aa1f39aa4cb2574295e1/Example/cfillion_Hello%20world.lua</source>
-      </version>
-    </reapack>
-  </category>
-  <category name="stems">
+<index version="1" name="AlbertoV5's Reaper Tools" commit="ed0a08505ff6f85797bfd9d9066e3f02dd248840">
+  <category name="parameterLinker">
     <reapack name="parameterLinker.lua" type="script" desc="Link Multichannel FXs Parameters">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
@@ -36,9 +25,9 @@
 }
 ]]></description>
       </metadata>
-      <version name="1.0" author="Alberto V5" time="2022-04-26T16:25:55Z">
+      <version name="1.0" author="Alberto V5" time="2022-04-26T16:29:16Z">
         <changelog><![CDATA[First release. Supports VST and VST3.]]></changelog>
-        <source main="main">https://github.com/AlbertoV5/ReaperTools/raw/e25a21f7b59f8938fd30a1df70358b13402a8ac7/stems/parameterLinker.lua</source>
+        <source main="main">https://github.com/AlbertoV5/ReaperTools/raw/8eb70fcb49ff6517c9039126b36461f080c3a12c/parameterLinker/parameterLinker.lua</source>
       </version>
     </reapack>
   </category>
