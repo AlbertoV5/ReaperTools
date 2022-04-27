@@ -52,12 +52,12 @@ Config Guide
         <link rel="screenshot">https://raw.githubusercontent.com/AlbertoV5/stoicOSC/main/resources/osc2.JPG</link>
         <link rel="donation">https://paypal.me/albertov5</link>
       </metadata>
-      <version name="0.1.0" author="AlbertoV5" time="2022-04-26T23:27:16Z">
+      <version name="0.1" author="AlbertoV5" time="2022-04-26T23:27:16Z">
         <source file="stoicOSC/stoic.reaperOSC">https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.ReaperOSC?raw=true</source>
         <source file="stoicOSC/stoic.tosc">https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.tosc?raw=true</source>
         <source file="stoicOSC/stoic.xml">https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.xml?raw=true</source>
       </version>
-      <version name="0.9.0" author="AlbertoV5" time="2022-04-26T23:54:58Z">
+      <version name="0.1" author="AlbertoV5" time="2022-04-26T23:54:58Z">
         <source file="stoicOSC/stoic.reaperOSC">https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.ReaperOSC?raw=true</source>
         <source file="stoicOSC/stoic.tosc">https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.tosc?raw=true</source>
         <source file="stoicOSC/stoic.xml">https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.xml?raw=true</source>
