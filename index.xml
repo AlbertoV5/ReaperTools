@@ -57,16 +57,6 @@ Config Guide
         <source file="stoicOSC/stoic.tosc">https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.tosc?raw=true</source>
         <source file="stoicOSC/stoic.xml">https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.xml?raw=true</source>
       </version>
-      <version name="0.1" author="AlbertoV5" time="2022-04-26T23:54:58Z">
-        <source file="stoicOSC/stoic.reaperOSC">https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.ReaperOSC?raw=true</source>
-        <source file="stoicOSC/stoic.tosc">https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.tosc?raw=true</source>
-        <source file="stoicOSC/stoic.xml">https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.xml?raw=true</source>
-      </version>
-      <version name="0.1" author="AlbertoV5" time="2022-04-27T00:52:51Z">
-        <source file="stoicOSC/stoic.reaperOSC">https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.ReaperOSC?raw=true</source>
-        <source file="stoicOSC/stoic.tosc">https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.tosc?raw=true</source>
-        <source file="stoicOSC/stoic.xml">https://github.com/AlbertoV5/stoicOSC/blob/main/Reapack/stoic.xml?raw=true</source>
-      </version>
     </reapack>
   </category>
   <metadata>
