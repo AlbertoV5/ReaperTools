@@ -4,7 +4,7 @@
 @author AlbertoV5
 @donation https://paypal.me/albertov5
 @about
-    This script creates the .tosc fiel
+    This script creates the .tosc file
 """
 
 import tosclib as tosc
