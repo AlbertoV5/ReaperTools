@@ -1,10 +1,10 @@
 """
-@description LISZT: Convert Reaper FX Parameters to Touch OSC Templates
+@description LISZT: Pull
 @version 0.1.0
 @author AlbertoV5
 @donation https://paypal.me/albertov5
 @about
-    Run this from Reaper with a Target FX
+    This script creates the .tosc file
 """
 
 import json

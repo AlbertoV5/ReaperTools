@@ -1,5 +1,5 @@
 """
-@description LISZT: Convert Reaper FX Parameters to Touch OSC Templates
+@description LISZT: Generate
 @version 0.1.0
 @author AlbertoV5
 @donation https://paypal.me/albertov5
