@@ -4,7 +4,7 @@
 @author AlbertoV5
 @donation https://paypal.me/albertov5
 @about
-    This script creates the .tosc file
+    Generate a new .tosc file from .json
 """
 
 import tosclib as tosc
