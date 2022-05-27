@@ -3,6 +3,9 @@
 @version 0.1.0
 @author AlbertoV5
 @donation https://paypal.me/albertov5
+@include
+    liszt-generate.py
+    liszt-pull.py
 @about
     This script creates the .tosc file
 ]]--
