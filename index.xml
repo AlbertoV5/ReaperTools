@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" commit="144c6acb17ca193314335454da09314e1a5602bb" name="AlbertoV5-ReaperTools">
+<index version="1" name="AlbertoV5-ReaperTools" commit="144c6acb17ca193314335454da09314e1a5602bb">
   <category name="Link Multichannel FXs Parameters">
     <reapack name="Link Multichannel FXs Parameters.lua" type="script" desc="Link Multichannel FXs Parameters">
       <metadata>
