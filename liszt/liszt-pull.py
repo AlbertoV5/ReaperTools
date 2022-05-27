@@ -1,3 +1,12 @@
+"""
+@description LISZT: Convert Reaper FX Parameters to Touch OSC Templates
+@version 0.1.0
+@author AlbertoV5
+@donation https://paypal.me/albertov5
+@about
+    Run this from Reaper with a Target FX
+"""
+
 import json
 from reapy import reascript_api as reaper
 from os.path import exists
@@ -9,7 +18,7 @@ class Converter:
         self.selected_track = None
         self.selected_fx_num = None
         self.selected_fx_name = None
-        self.params_table = {"fx_name":"", "fx_params":[]}
+        self.params_table = {"fx_name": "", "fx_params": []}
         (self.output_path, _) = reaper.GetProjectPath("", 8192)
         os = reaper.GetOS()
         self.sep = "\\" if os == "Win32" or os == "Win64" else "/"
@@ -54,9 +63,7 @@ class Converter:
             if not _:
                 return False
             if param != "MIDI CC":
-                self.params_table["fx_params"].append(
-                    {"index": i, "name": param}
-                )
+                self.params_table["fx_params"].append({"index": i, "name": param})
 
         return True
 

@@ -1,3 +1,12 @@
+"""
+@description LISZT: Convert Reaper FX Parameters to Touch OSC Templates
+@version 0.1.0
+@author AlbertoV5
+@donation https://paypal.me/albertov5
+@about
+    This script creates the .tosc fiel
+"""
+
 import tosclib as tosc
 import json
 from reapy import reascript_api as reaper
@@ -31,7 +40,7 @@ def createFader(e: tosc.ElementTOSC, name, width, limit, i, msg):
 
 def main(jsonFile, outputFile):
     jsonData = getJson(jsonFile)
-    
+
     root = tosc.createTemplate()
     base = tosc.ElementTOSC(root[0])
     base.createProperty("s", "name", "template")
