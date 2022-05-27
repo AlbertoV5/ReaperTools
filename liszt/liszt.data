@@ -2,12 +2,7 @@
 @version 0.1
 @author AlbertoV5
 @provides
-    liszt-pull.py
-    liszt-pull.lua
-    liszt-generate.py
-    json.lua
-    demo.rpp
-    Files
+    src
 @donation https://paypal.me/albertov5
 @about
     # LISZT: Convert FX Parms to Touch OSC Template
