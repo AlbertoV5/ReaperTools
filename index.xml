@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="AlbertoV5-ReaperTools" commit="c5bb37f556534bf96a8203810c95a19564a193b1">
+<index version="1" name="AlbertoV5-ReaperTools" commit="c9e8fce87fdcfdd14c69a7bba40f7fd344060ceb">
   <category name="Link Multichannel FXs Parameters">
     <reapack name="Link Multichannel FXs Parameters.lua" type="script" desc="Link Multichannel FXs Parameters">
       <metadata>
@@ -47,8 +47,8 @@
         <source main="main">https://github.com/AlbertoV5/ReaperTools/raw/a5e4f8516daf84676641b8ddfa1c9b03d6c94e53/liszt/liszt-generate.py</source>
       </version>
       <version name="0.1.1" author="AlbertoV5" time="2022-05-29T02:12:57Z">
-        <source main="main">https://github.com/AlbertoV5/ReaperTools/raw/c5bb37f556534bf96a8203810c95a19564a193b1/liszt/liszt-generate.py</source>
-        <source file="liszt-web.py">https://raw.githubusercontent.com/AlbertoV5/tosclib/main/docs/demos/5-reaper-tosclib.py</source>
+        <source main="main">https://github.com/AlbertoV5/ReaperTools/raw/c9e8fce87fdcfdd14c69a7bba40f7fd344060ceb/liszt/liszt-generate.py</source>
+        <source type="script" file="liszt-web.py">https://raw.githubusercontent.com/AlbertoV5/tosclib/main/docs/demos/5-reaper-tosclib.py</source>
       </version>
     </reapack>
     <reapack name="liszt-pull.py" type="script" desc="LISZT: Pull">
