@@ -32,9 +32,9 @@ class Converter:
     def toJson(self):
         self.result(self.getFXParamsTable)
         self.result(self.serializeJson)
-        self.result(
-            lambda: False, f"Succesfully converted to Json:\n\n{self.output_file}"
-        )
+        # self.result(
+        #     lambda: False, f"Succesfully converted to Json:\n\n{self.output_file}"
+        # )
 
     def getSelectedTrack(self) -> bool:
         if reaper.CountSelectedTracks(0) == 0:
