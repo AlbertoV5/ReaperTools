@@ -5,6 +5,7 @@
 @donation https://paypal.me/albertov5
 @about
     Create a .json file from Last Touched FX
+    JSFX not supported yet
 """
 
 import json
