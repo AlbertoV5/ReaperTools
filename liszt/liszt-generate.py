@@ -1,6 +1,6 @@
 """
 @description LISZT: Generate
-@version 0.1.0
+@version 0.1.1
 @author AlbertoV5
 @donation https://paypal.me/albertov5
 @about
