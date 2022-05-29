@@ -6,7 +6,7 @@
 @about
     Generate a new .tosc file from .json
 @provides
-    liszt-web.py https://raw.githubusercontent.com/AlbertoV5/tosclib/main/docs/demos/5-reaper-tosclib.py
+    [script] liszt-web.py https://raw.githubusercontent.com/AlbertoV5/tosclib/main/docs/demos/5-reaper-tosclib.py
 """
 
 import tosclib as tosc
