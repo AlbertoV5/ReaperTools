@@ -26,32 +26,26 @@ class Converter:
         self.output_file = None
 
     def update(self):
-        self.result(self.getSelectedTrack)
         self.result(self.getLastTouchedFX)
 
     def toJson(self):
         self.result(self.getFXParamsTable)
         self.result(self.serializeJson)
-        # self.result(
-        #     lambda: False, f"Succesfully converted to Json:\n\n{self.output_file}"
-        # )
-
-    def getSelectedTrack(self) -> bool:
-        if reaper.CountSelectedTracks(0) == 0:
-            return False
-        self.selected_track = reaper.GetSelectedTrack(0, 0)
-        return True
 
     def getLastTouchedFX(self) -> bool:
-        (_, _, fxnumber, _) = reaper.GetLastTouchedFX(0, 0, 0)
-        (_, _, _, fxName, _) = reaper.TrackFX_GetFXName(
+        (_, trackNumber, fxnumber, _) = reaper.GetLastTouchedFX(0, 0, 0)
+        self.selected_track = reaper.GetTrack(0, trackNumber)
+        (retval, _, _, fxName, _) = reaper.TrackFX_GetFXName(
             self.selected_track, fxnumber, "", 2048
         )
         self.selected_fx_num = fxnumber
         self.selected_fx_name = fxName
-        return _
+        return retval
 
     def getFXParamsTable(self) -> bool:
+        if not self.selected_fx_name:
+            return False
+        
         self.params_table["fx_name"] = self.selected_fx_name
         numParams = (
             reaper.TrackFX_GetNumParams(self.selected_track, self.selected_fx_num) - 1
