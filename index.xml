@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="AlbertoV5-ReaperTools" commit="a0ccee8fc4464bfd31c5809e47d8cb5a740fc364">
+<index version="1" name="AlbertoV5-ReaperTools" commit="9f3cc114dede37b1bcdc0c6f13b2121707205f6a">
   <category name="Link Multichannel FXs Parameters">
     <reapack name="Link Multichannel FXs Parameters.lua" type="script" desc="Link Multichannel FXs Parameters">
       <metadata>
@@ -32,41 +32,21 @@
     </reapack>
   </category>
   <category name="liszt">
-    <reapack name="liszt-generate.py" type="script" desc="LISZT: Generate">
+    <reapack name="liszt.data" type="data" desc="LISZT: Generate Touch OSC Templates from Reaper.">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 Generate a new .tosc file from .json\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This uses tosclib to create new .tosc files from data that Reaper can provide.\par}
 }
 ]]></description>
         <link rel="donation">https://paypal.me/albertov5</link>
       </metadata>
-      <version name="0.1.0" author="AlbertoV5" time="2022-05-27T20:41:14Z">
-        <source main="main">https://github.com/AlbertoV5/ReaperTools/raw/a5e4f8516daf84676641b8ddfa1c9b03d6c94e53/liszt/liszt-generate.py</source>
-      </version>
-      <version name="0.1.1" author="AlbertoV5" time="2022-05-29T02:12:57Z">
-        <source main="main">https://github.com/AlbertoV5/ReaperTools/raw/a0ccee8fc4464bfd31c5809e47d8cb5a740fc364/liszt/liszt-generate.py</source>
+      <version name="0.1.1" author="AlbertoV5" time="2022-05-29T07:21:06Z">
+        <source main="main" type="script" file="liszt-generate.py">https://raw.githubusercontent.com/AlbertoV5/Reaper-Scripts/main/LISZT/liszt-generate.py</source>
+        <source main="main" type="script" file="liszt-pull.py">https://raw.githubusercontent.com/AlbertoV5/Reaper-Scripts/main/LISZT/liszt-pull.py</source>
         <source type="script" file="liszt-web.py">https://raw.githubusercontent.com/AlbertoV5/tosclib/main/docs/demos/5-reaper-tosclib.py</source>
-      </version>
-    </reapack>
-    <reapack name="liszt-pull.py" type="script" desc="LISZT: Pull">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 Create a .json file from Last Touched FX JSFX not supported yet\par}
-}
-]]></description>
-        <link rel="donation">https://paypal.me/albertov5</link>
-      </metadata>
-      <version name="0.1.0" author="AlbertoV5" time="2022-05-27T20:41:14Z">
-        <source main="main">https://github.com/AlbertoV5/ReaperTools/raw/a5e4f8516daf84676641b8ddfa1c9b03d6c94e53/liszt/liszt-pull.py</source>
-      </version>
-      <version name="0.1.1" author="AlbertoV5" time="2022-05-29T02:12:57Z">
-        <source main="main">https://github.com/AlbertoV5/ReaperTools/raw/f27e86b55ba6a1c96bd455704cbecea5abffda19/liszt/liszt-pull.py</source>
       </version>
     </reapack>
   </category>
