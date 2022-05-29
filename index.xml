@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="AlbertoV5-ReaperTools" commit="2914cf426737fe8bc7f28359a4c15de210aa4be2">
+<index version="1" name="AlbertoV5-ReaperTools" commit="b5f609b461c60d41468bb8ca6c32d79ce861964a">
   <category name="Link Multichannel FXs Parameters">
     <reapack name="Link Multichannel FXs Parameters.lua" type="script" desc="Link Multichannel FXs Parameters">
       <metadata>
@@ -49,7 +49,7 @@
     </reapack>
     <reapack name="liszt-pull.py" type="script" desc="LISZT: Pull">
       <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
