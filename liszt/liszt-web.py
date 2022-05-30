@@ -19,7 +19,7 @@ def hashSha1(actionPath: Path):
 class REAPER:
     """Reaper config values. Change them to fit your setup."""
 
-    lisztPath: Path = Path("AlbertoV5-ReaperTools") / "liszt"
+    lisztPath: Path = Path("AlbertoV5-ReaperTools") / "LISZT"
     host: str = "127.0.0.1"
     port: str = "8080"
 

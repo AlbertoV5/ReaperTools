@@ -1,0 +1,9 @@
+@description Cycle Grid: Go through the user-defined grid settings
+@version 1.0
+@author AlbertoV5
+@donation https://paypal.me/albertov5
+@about
+    Edit variables at the top of the .lua to your needs
+@provides
+    [script main] cycle_grid_up.lua
+    [script main] cycle_grid_down.lua
