@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="AlbertoV5-ReaperTools" commit="b49a8dff133480c4e3625c58fe4850abe564ab2f">
+<index version="1" name="AlbertoV5-ReaperTools" commit="2c2caaaaf0081b8d28e8df8c6f9a724069c0852f">
+  <category name="CycleGrid">
+    <reapack name="CycleGrid.data" type="data" desc="Cycle Grid: Go through the user-defined grid settings">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Edit variables at the top of the .lua to your needs\par}
+}
+]]></description>
+        <link rel="donation">https://paypal.me/albertov5</link>
+      </metadata>
+      <version name="1.0" author="AlbertoV5" time="2022-05-30T04:29:07Z">
+        <source main="main" type="script" file="cycle_grid_up.lua">https://github.com/AlbertoV5/ReaperTools/raw/2c2caaaaf0081b8d28e8df8c6f9a724069c0852f/CycleGrid/cycle_grid_up.lua</source>
+        <source main="main" type="script" file="cycle_grid_down.lua">https://github.com/AlbertoV5/ReaperTools/raw/2c2caaaaf0081b8d28e8df8c6f9a724069c0852f/CycleGrid/cycle_grid_down.lua</source>
+      </version>
+    </reapack>
+  </category>
   <category name="Link Multichannel FXs Parameters">
     <reapack name="Link Multichannel FXs Parameters.lua" type="script" desc="Link Multichannel FXs Parameters">
       <metadata>
