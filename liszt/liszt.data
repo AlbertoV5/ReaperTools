@@ -5,6 +5,6 @@
 @about
     This uses tosclib to create new .tosc files from data that Reaper can provide.
 @provides
-    [script main] liszt-generate.py liszt-generate.py
-    [script main] liszt-pull.py liszt-pull.py
+    [script main] liszt-generate.py
+    [script main] liszt-pull.py
     [script nomain] liszt-web.py https://raw.githubusercontent.com/AlbertoV5/tosclib/main/docs/demos/5-reaper-tosclib.py
