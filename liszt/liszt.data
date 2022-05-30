@@ -7,7 +7,7 @@
 @provides
     [script main] liszt-generate.py
     [script main] liszt-pull.py
-    [script nomain] liszt-web.py https://raw.githubusercontent.com/AlbertoV5/tosclib/main/docs/demos/5-reaper-tosclib.py
+    [script nomain] liszt-web.py
 @changelog
     - Changed from .json to .xml files
     - Added ET.indent() for python >= 3.9
