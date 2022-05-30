@@ -2,7 +2,6 @@
 
 import xml.etree.ElementTree as ET
 
-
 class FX:
     def __init__(self, name):
         self.name = ET.Element("name")
@@ -65,6 +64,7 @@ class Converter:
         output_file = f"{self.output_path}{self.sep}{file_name}.xml"
 
         with open(output_file, "wb") as file:
+            ET.indent(self.FX.name)
             file.write(
                 ET.tostring(self.FX.name, encoding="UTF-8", xml_declaration=True)
             )

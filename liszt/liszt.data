@@ -1,5 +1,5 @@
 @description LISZT: Generate Touch OSC Templates from Reaper.
-@version 0.1.2
+@version 0.1.3
 @author AlbertoV5
 @donation https://paypal.me/albertov5
 @about
@@ -8,3 +8,6 @@
     [script main] liszt-generate.py
     [script main] liszt-pull.py
     [script nomain] liszt-web.py https://raw.githubusercontent.com/AlbertoV5/tosclib/main/docs/demos/5-reaper-tosclib.py
+@changelog
+    - Changed from .json to .xml files
+    - Added ET.indent() for python >= 3.9
