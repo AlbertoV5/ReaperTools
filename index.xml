@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="AlbertoV5-ReaperTools" commit="ba24d65a1acf9176f4ace0f6451617f628b0375a">
+<index version="1" name="AlbertoV5-ReaperTools" commit="eef713ee4a04bbeb53245cea479889fcbc1a2e13">
   <category name="CycleGrid">
     <reapack name="CycleGrid.data" type="data" desc="Cycle Grid: Go through the user-defined grid settings">
       <metadata>
@@ -52,7 +52,7 @@
   <category name="liszt">
     <reapack name="liszt.data" type="data" desc="LISZT: Generate Touch OSC Templates from Reaper.">
       <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
@@ -121,11 +121,11 @@ Config Guide
     </reapack>
   </category>
   <metadata>
-    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Reaper Tools\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Reaper Tools\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 {\cf1 [image: https://github.com/AlbertoV5/ReaperTools/actions/workflows/check.yml/badge.svg]\cf0} {\cf1 [image: https://github.com/AlbertoV5/ReaperTools/actions/workflows/deploy.yml/badge.svg]\cf0}\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Hello.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This is where I'll package most of my REAPER scripts and tools for sharing with the community.\par}
