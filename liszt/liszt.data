@@ -1,13 +1,15 @@
 @description LISZT: Generate Touch OSC Templates from Reaper.
-@version 0.1.3
+@version 0.1.4
 @author AlbertoV5
 @donation https://paypal.me/albertov5
 @about
     This uses tosclib to create new .tosc files from data that Reaper can provide.
+    How to use: 
+        Launch liszt-web from outside Reaper or generate then pull from within Reaper.
 @provides
     [script main] liszt-generate.py
     [script main] liszt-pull.py
     [script nomain] liszt-web.py
 @changelog
-    - Changed from .json to .xml files
-    - Added ET.indent() for python >= 3.9
+    0.1.4
+    - Fixed setFrame, setColor to support tosclib >=0.3.0
