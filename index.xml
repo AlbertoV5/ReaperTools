@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="AlbertoV5-ReaperTools" commit="2c2caaaaf0081b8d28e8df8c6f9a724069c0852f">
+<index version="1" name="AlbertoV5-ReaperTools" commit="ba24d65a1acf9176f4ace0f6451617f628b0375a">
   <category name="CycleGrid">
     <reapack name="CycleGrid.data" type="data" desc="Cycle Grid: Go through the user-defined grid settings">
       <metadata>
@@ -56,7 +56,7 @@
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 This uses tosclib to create new .tosc files from data that Reaper can provide.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This uses tosclib to create new .tosc files from data that Reaper can provide. How to use: Launch liszt-web from outside Reaper or generate then pull from within Reaper.\par}
 }
 ]]></description>
         <link rel="donation">https://paypal.me/albertov5</link>
@@ -77,6 +77,13 @@
         <source main="main" type="script" file="liszt-generate.py">https://github.com/AlbertoV5/ReaperTools/raw/b49a8dff133480c4e3625c58fe4850abe564ab2f/liszt/liszt-generate.py</source>
         <source main="main" type="script" file="liszt-pull.py">https://github.com/AlbertoV5/ReaperTools/raw/b49a8dff133480c4e3625c58fe4850abe564ab2f/liszt/liszt-pull.py</source>
         <source type="script" file="liszt-web.py">https://github.com/AlbertoV5/ReaperTools/raw/b49a8dff133480c4e3625c58fe4850abe564ab2f/liszt/liszt-web.py</source>
+      </version>
+      <version name="0.1.4" author="AlbertoV5" time="2022-06-04T16:41:13Z">
+        <changelog><![CDATA[0.1.4
+- Fixed setFrame, setColor to support tosclib >=0.3.0]]></changelog>
+        <source main="main" type="script" file="liszt-generate.py">https://github.com/AlbertoV5/ReaperTools/raw/ba24d65a1acf9176f4ace0f6451617f628b0375a/liszt/liszt-generate.py</source>
+        <source main="main" type="script" file="liszt-pull.py">https://github.com/AlbertoV5/ReaperTools/raw/ba24d65a1acf9176f4ace0f6451617f628b0375a/liszt/liszt-pull.py</source>
+        <source type="script" file="liszt-web.py">https://github.com/AlbertoV5/ReaperTools/raw/ba24d65a1acf9176f4ace0f6451617f628b0375a/liszt/liszt-web.py</source>
       </version>
     </reapack>
   </category>
