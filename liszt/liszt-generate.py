@@ -19,13 +19,13 @@ def main(inputFile, outputFile):
     root = tosc.createTemplate()
     base = tosc.ElementTOSC(root[0])
     base.createProperty("s", "name", "template")
-    base.setFrame(0, 0, 1920, 1080)
+    base.setFrame((0, 0, 1920, 1080))
 
     # Group container for the faders
     group = tosc.ElementTOSC(base.createChild("GROUP"))
     group.createProperty("s", "name", fx.name.text)
-    group.setFrame(420, 0, 1080, 1080)
-    group.setColor(0.25, 0.25, 0.25, 1)
+    group.setFrame((420, 0, 1080, 1080))
+    group.setColor((0.25, 0.25, 0.25, 1))
 
     # Create faders
     width = int(group.getPropertyParam("frame", "w").text) / FX_PARAM_LIMIT
@@ -42,8 +42,8 @@ def main(inputFile, outputFile):
         index = int(param.attrib["index"])
         fader = tosc.ElementTOSC(group.createChild("FADER"))
         fader.createProperty("s", "name", param.text)
-        fader.setFrame(width * i, 0, width, 1080)
-        fader.setColor(i / FX_PARAM_LIMIT, 0, 1 - i / FX_PARAM_LIMIT, 1)
+        fader.setFrame((width * i, 0, width, 1080))
+        fader.setColor((i / FX_PARAM_LIMIT, 0, 1 - i / FX_PARAM_LIMIT, 1))
         fader.createOSC(msg)
         
         if index == FX_PARAM_LIMIT:
